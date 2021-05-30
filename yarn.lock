@@ -6722,10 +6722,10 @@ jsonfile@^6.0.1:
     array-includes "^3.1.2"
     object.assign "^4.1.2"
 
-jugs-task-package@^1.0.7:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/jugs-task-package/-/jugs-task-package-1.0.7.tgz#cd62d8a01a3c53707cdd8661c102ec7c7d6d0a82"
-  integrity sha512-jxtaHef1N/tNNPNyMDMvtgE2bi9FlzOhj8XM4u56aOHTPRSWqQAcjJnr2VmoRS359A2AvMgkAI5wMtZ8q0W/zA==
+jugs-task-package@^1.0.9:
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/jugs-task-package/-/jugs-task-package-1.0.9.tgz#d94a3e80593d4502d575ec09380eb10a071e8567"
+  integrity sha512-MtpDlVNz9XzivadjRaazocnB/3YQYKztK68RcMLmfrmF2jwDagR+JMPoGl9gFZTLXADhtJt4pqwb6FFpSI9FlA==
   dependencies:
     querystring "^0.2.1"
 

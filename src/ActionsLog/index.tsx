@@ -4,7 +4,7 @@ import { Button, ButtonGroup, Intent, Slider } from "@blueprintjs/core";
 import AutoSizer from 'react-virtualized-auto-sizer';
 import { FixedSizeList as List } from 'react-window';
 
-import ActionExecutor, { ExecutionStep } from "jugs-task-package/ActionExecutor";
+import ActionExecutor, { ExecutionStep } from "jugs-task-package/dist/ActionExecutor";
 
 import usePlayer, { IActionsLogProps } from "./usePlayer";
 import ActionRow from "./ActionRow";

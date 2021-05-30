@@ -1,6 +1,6 @@
 import { RefObject, useRef } from "react";
 import { useEffect, useState } from "react";
-import InputParams from "jugs-task-package/types/InputParams";
+import InputParams from "jugs-task-package/dist/types/InputParams";
 
 import './style.scss';
 import VisLoop, { IDimensions, IExecutionState } from "./VisLoop";
