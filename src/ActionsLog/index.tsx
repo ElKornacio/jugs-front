@@ -57,6 +57,9 @@ function ActionsLog(props: IActionsLogProps) {
                     onChange={onStepDurationChange}
                 />
             </div>
+            <div className="log-block">
+                Actions count: {actionsLength}
+            </div>
             <div className="execution-log">
                 <div className="el-head">
                     <div className="el-name">Name</div>
