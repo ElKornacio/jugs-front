@@ -1,9 +1,8 @@
-import { RefObject, useRef } from "react";
-import { useEffect, useState } from "react";
-import InputParams from "jugs-task-package/dist/types/InputParams";
+import { RefObject, useRef, useEffect, useState } from "react";
+
+import VisLoop, { IDimensions, IExecutionState } from "./VisLoop";
 
 import './style.scss';
-import VisLoop, { IDimensions, IExecutionState } from "./VisLoop";
 
 function getDimensions(ref: HTMLElement) {
     return {

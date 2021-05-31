@@ -1,0 +1,27 @@
+.header {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 70px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    border-bottom: 1px solid #e0e0e0;
+
+    .generate-btn {
+        margin-right: 10px;
+    }
+
+    .param-input {
+        margin-right: 10px;
+
+        width: 100px;
+
+        .bp3-input-group {
+            flex-grow: 1;
+            flex-shrink: 1;
+        }
+    }
+}

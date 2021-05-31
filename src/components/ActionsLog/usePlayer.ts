@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { ExecutionStep } from "jugs-task-package/dist/ActionExecutor";
 import { ActionsIterator } from "jugs-task-package/dist/types/AbstractSolver";
 import InputParams from "jugs-task-package/dist/types/InputParams";
-import { IExecutionState } from "../visualization/VisLoop";
+import { IExecutionState } from "../Visualization/VisLoop";
 
 export interface IActionsLogProps {
     stepDuration: number,
